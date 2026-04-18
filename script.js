@@ -14,7 +14,7 @@ const noMessages = [
     "Are you sure? 🤔",
     "Gliculi please... 🥺",
     "If you say no, I will be really sad...",
-    "I will be very sad... 😢",
+    "Im getting really sad... 😢",
     "Please??? 💔",
     "Don't do this to me...",
     "Last chance! 😭",
