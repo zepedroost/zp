@@ -6,7 +6,7 @@ const gifStages = [
     "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWdveHFxNDVmanh1Y21xejZmczJ3a3o5aW9rMGMzMnVpYnFqZHp4NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4zUmRD2x9vl06ltMXd/giphy.gif",       // 4 sadder
     "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTg5cTF4Z2hoNnRqcHM4dWdnZXc1M2tnenNwamM0MWNkMDAycHZxZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MTp7DtQJxkXKziaBEZ/giphy.gif",             // 5 devastated
     "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHVnNjAxeHB2czY5NW5neXQ3OG0wNjhrd2h2eGd4bmNjejN0dmo5dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yV1anhmcHNQc6bc2R4/giphy.gif",               // 6 very devastated
-    "https://media1.tenor.com/m/uDugCXK4vI4AAAAC/chiikawa-hachiware.gif"  // 7 crying runaway
+    "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHVnNjAxeHB2czY5NW5neXQ3OG0wNjhrd2h2eGd4bmNjejN0dmo5dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yV1anhmcHNQc6bc2R4/giphy.gif"  // 7 crying runaway
 ]
 
 const noMessages = [
