@@ -1,5 +1,5 @@
 const gifStages = [
-    "https://media.tenor.com/EBV7OT7ACfwAAAAj/u-u-qua-qua-u-quaa.gif",    // 0 normal
+    "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDB4emRxdTNoN2lpeGIwZXllOTE0cjN1OGxub2YwZ2g0c2xxdzR2NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OpdTzOY2e4jInw2Vkk/giphy.gif",    // 0 normal
     "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2R6Nmlhd2Z6dXd0ZTg3MzB5ZGFjcDMyZXZwNngya252Zmt1djByeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rScYNt7cl8I4lKSQVW/giphy.gif",  // 1 confused
     "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWUwaTVqcmNybHdzNjlidTh2NmExOWo4ZmxwYnY3M3JocXFqOWxnbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Jy8LT2ryo6rI6iDewc/giphy.gif",             // 2 pleading
     "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjN2OHhkdjIxem1ia3owbm91cmUyanRsY2dhODF3eWFhemdvYmh3NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7y3CfUclWw1T1nSV74/giphy.gif",             // 3 sad
