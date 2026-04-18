@@ -31,16 +31,16 @@ body {
 .hearts-bg::after {
     content: '💕 💗 💖 💝 💓💕 💗 💖 💝 💓';
     position: absolute;
-    font-size: 2rem;
-    opacity: 0.1;
-    animation: floatHearts 15s linear infinite;
+    font-size: 5rem;
+    opacity: 0.02;
+    animation: floatHearts 30s linear infinite;
     white-space: nowrap;
     top: 100%;
-    left: 50%;
+    left: 100%;
 }
 
 .hearts-bg::after {
-    animation-delay: 6s;
+    animation-delay: 3s;
     left: 60%;
     content: '💗 💕 💓 💖 💝💗 💕 💓 💖 💝';
 }
