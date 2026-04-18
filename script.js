@@ -67,7 +67,7 @@ function toggleMusic() {
 
 function handleYesClick() {
   document.querySelector('h1').innerHTML = 'Yess, Im so happy my princess 💝';
-  document.querySelector('#cat-gif').src = 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnpvOHJsZTVyM2g4dGg4cHZpcGR5bWp0c2t0bHY2Nzd4aXAycWdoNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PNgCafbCVDPgpJj8xS/giphy.gif';
+  document.querySelector('#cat-gif').src = 'https://media.giphy.com/media/PNgCafbCVDPgpJj8xS/giphy.gif';
   document.querySelector('.buttons').style.display = 'none';
 
   const tease = document.getElementById('tease-toast');
