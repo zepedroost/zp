@@ -1,18 +1,18 @@
 const gifStages = [
     "https://media.tenor.com/EBV7OT7ACfwAAAAj/u-u-qua-qua-u-quaa.gif",    // 0 normal
-    "https://media1.tenor.com/m/uDugCXK4vI4AAAAd/chiikawa-hachiware.gif",  // 1 confused
-    "https://media.tenor.com/f_rkpJbH1s8AAAAj/somsom1012.gif",             // 2 pleading
-    "https://media.tenor.com/OGY9zdREsVAAAAAj/somsom1012.gif",             // 3 sad
-    "https://media1.tenor.com/m/WGfra-Y_Ke0AAAAd/chiikawa-sad.gif",       // 4 sadder
-    "https://media.tenor.com/CivArbX7NzQAAAAj/somsom1012.gif",             // 5 devastated
-    "https://media.tenor.com/5_tv1HquZlcAAAAj/chiikawa.gif",               // 6 very devastated
+    "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2R6Nmlhd2Z6dXd0ZTg3MzB5ZGFjcDMyZXZwNngya252Zmt1djByeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rScYNt7cl8I4lKSQVW/giphy.gif",  // 1 confused
+    "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWUwaTVqcmNybHdzNjlidTh2NmExOWo4ZmxwYnY3M3JocXFqOWxnbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Jy8LT2ryo6rI6iDewc/giphy.gif",             // 2 pleading
+    "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjN2OHhkdjIxem1ia3owbm91cmUyanRsY2dhODF3eWFhemdvYmh3NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7y3CfUclWw1T1nSV74/giphy.gif",             // 3 sad
+    "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWdveHFxNDVmanh1Y21xejZmczJ3a3o5aW9rMGMzMnVpYnFqZHp4NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4zUmRD2x9vl06ltMXd/giphy.gif",       // 4 sadder
+    "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTg5cTF4Z2hoNnRqcHM4dWdnZXc1M2tnenNwamM0MWNkMDAycHZxZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MTp7DtQJxkXKziaBEZ/giphy.gif",             // 5 devastated
+    "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHVnNjAxeHB2czY5NW5neXQ3OG0wNjhrd2h2eGd4bmNjejN0dmo5dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yV1anhmcHNQc6bc2R4/giphy.gif",               // 6 very devastated
     "https://media1.tenor.com/m/uDugCXK4vI4AAAAC/chiikawa-hachiware.gif"  // 7 crying runaway
 ]
 
 const noMessages = [
     "No",
-    "Are you positive? 🤔",
-    "Pookie please... 🥺",
+    "Are you sure? 🤔",
+    "Gliculi please... 🥺",
     "If you say no, I will be really sad...",
     "I will be very sad... 😢",
     "Please??? 💔",
