@@ -79,6 +79,7 @@ function handleYesClick() {
     msg.innerHTML = 'Agapi mo 💝';
     document.querySelector('.container').appendChild(msg);
   }
+    confetti({ particleCount: 150, spread: 100, origin: { x: 0.5, y: 0.3 } });
 }
 
 function showTeaseMessage(msg) {
