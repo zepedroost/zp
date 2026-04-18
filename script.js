@@ -66,14 +66,19 @@ function toggleMusic() {
 }
 
 function handleYesClick() {
-    if (!runawayEnabled) {
-        // Tease her to try No first
-        const msg = yesTeasePokes[Math.min(yesTeasedCount, yesTeasePokes.length - 1)]
-        yesTeasedCount++
-        showTeaseMessage(msg)
-        return
-    }
-    window.location.href = 'yes.html'
+  document.querySelector('h1').innerHTML = 'Yess, Im so happy my princess 💝';
+  document.querySelector('#cat-gif').src = 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnpvOHJsZTVyM2g4dGg4cHZpcGR5bWp0c2t0bHY2Nzd4aXAycWdoNCZlcDI2MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PMgCafbCVDPgpJj8X5/giphy.gif';
+  document.querySelector('.buttons').style.display = 'none';
+
+  const tease = document.getElementById('tease-toast');
+  if (tease) tease.style.display = 'none';
+
+  if (!document.querySelector('.yes-message')) {
+    const msg = document.createElement('p');
+    msg.className = 'yes-message';
+    msg.innerHTML = 'Agapi mo 💝';
+    document.querySelector('.container').appendChild(msg);
+  }
 }
 
 function showTeaseMessage(msg) {
