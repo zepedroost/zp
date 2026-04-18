@@ -46,7 +46,7 @@ body {
 }
 
 @keyframes floatHearts {
-    from { transform: translateY(0); opacity: 0.03; }
+    from { transform: translateY(0); opacity: 0.15; }
     to { transform: translateY(-110vh); opacity: 0; }
 }
 
@@ -54,7 +54,7 @@ body {
     position: relative;
     z-index: 1;
     text-align: center;
-    padding: 40px 40px;
+    padding: 40px 20px;
 }
 
 h1 {
@@ -72,14 +72,14 @@ h1 {
 }
 
 .gif-container {
-    margin: 40px auto;
+    margin: 20px auto;
     display: flex;
     justify-content: center;
 }
 
 #cat-gif {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     object-fit: contain;
     filter: drop-shadow(0 8px 16px rgba(0,0,0,0.15));
     transition: opacity 0.3s ease;
@@ -87,7 +87,7 @@ h1 {
 
 .buttons {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
