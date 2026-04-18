@@ -29,20 +29,20 @@ body {
 
 .hearts-bg::before,
 .hearts-bg::after {
-    content: '💕 💗 💖 💝 💓💕 💗 💖 💝 💓';
+    content: '💕 💗 💖 💝 💓';
     position: absolute;
-    font-size: 5rem;
-    opacity: 0.5;
-    animation: floatHearts 60s linear infinite;
+    font-size: 1.5rem;
+    opacity: 0.15;
+    animation: floatHearts 12s linear infinite;
     white-space: nowrap;
     top: 100%;
-    left: 100%;
+    left: 10%;
 }
 
 .hearts-bg::after {
     animation-delay: 6s;
     left: 60%;
-    content: '💗 💕 💓 💖 💝💗 💕 💓 💖 💝';
+    content: '💗 💕 💓 💖 💝';
 }
 
 @keyframes floatHearts {
