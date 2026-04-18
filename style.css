@@ -29,24 +29,24 @@ body {
 
 .hearts-bg::before,
 .hearts-bg::after {
-    content: '💕 💗 💖 💝 💓';
+    content: '💕 💗 💖 💝 💓💕 💗 💖 💝 💓';
     position: absolute;
-    font-size: 1.5rem;
-    opacity: 0.15;
-    animation: floatHearts 12s linear infinite;
+    font-size: 2rem;
+    opacity: 0.1;
+    animation: floatHearts 15s linear infinite;
     white-space: nowrap;
     top: 100%;
-    left: 10%;
+    left: 50%;
 }
 
 .hearts-bg::after {
     animation-delay: 6s;
     left: 60%;
-    content: '💗 💕 💓 💖 💝';
+    content: '💗 💕 💓 💖 💝💗 💕 💓 💖 💝';
 }
 
 @keyframes floatHearts {
-    from { transform: translateY(0); opacity: 0.15; }
+    from { transform: translateY(0); opacity: 0.1; }
     to { transform: translateY(-110vh); opacity: 0; }
 }
 
@@ -78,8 +78,8 @@ h1 {
 }
 
 #cat-gif {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     object-fit: contain;
     filter: drop-shadow(0 8px 16px rgba(0,0,0,0.15));
     transition: opacity 0.3s ease;
