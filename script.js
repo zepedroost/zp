@@ -39,18 +39,18 @@ const yesBtn = document.getElementById('yes-btn')
 const noBtn = document.getElementById('no-btn')
 const music = document.getElementById('bg-music')
 
-// Autoplay: audio starts muted (bypasses browser policy), unmute immediately
-music.muted = true
 music.volume = 0.3
-music.play().then(() => {
-    music.muted = false
-}).catch(() => {
-    // Fallback: unmute on first interaction
-    document.addEventListener('click', () => {
-        music.muted = false
-        music.play().catch(() => {})
-    }, { once: true })
-})
+music.muted = false
+musicPlaying = false
+
+document.getElementById('yes-btn').addEventListener('click', startMusic, { once: true })
+document.getElementById('no-btn').addEventListener('click', startMusic, { once: true })
+
+function startMusic() {
+    music.play().catch(() => {})
+    musicPlaying = true
+    document.getElementById('music-toggle').textContent = '🔊'
+}
 
 function toggleMusic() {
     if (musicPlaying) {
