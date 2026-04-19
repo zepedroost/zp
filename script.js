@@ -40,15 +40,12 @@ const noBtn = document.getElementById('no-btn')
 const music = document.getElementById('bg-music')
 
 music.volume = 0.3
-music.muted = false
-musicPlaying = false
 
-document.addEventListener('click', function startMusic() {
+document.addEventListener('click', function() {
     music.play().catch(() => {})
     musicPlaying = true
     document.getElementById('music-toggle').textContent = '🔊'
-    document.removeEventListener('click', startMusic)
-})
+}, { once: true })
 
 function toggleMusic() {
     if (musicPlaying) {
