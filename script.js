@@ -43,14 +43,12 @@ music.volume = 0.3
 music.muted = false
 musicPlaying = false
 
-document.getElementById('yes-btn').addEventListener('click', startMusic, { once: true })
-document.getElementById('no-btn').addEventListener('click', startMusic, { once: true })
-
-function startMusic() {
+document.addEventListener('click', function startMusic() {
     music.play().catch(() => {})
     musicPlaying = true
     document.getElementById('music-toggle').textContent = '🔊'
-}
+    document.removeEventListener('click', startMusic)
+})
 
 function toggleMusic() {
     if (musicPlaying) {
