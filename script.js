@@ -66,6 +66,15 @@ function toggleMusic() {
 }
 
 function handleYesClick() {
+  if (noClickCount < 5) {
+    // Too early! Show a tease message instead
+    const msgIndex = Math.min(yesTeasedCount, yesTeasePokes.length - 1);
+    showTeaseMessage(yesTeasePokes[msgIndex]);
+    yesTeasedCount++;
+    return;
+  }
+
+  // Only reaches here after 5+ No clicks
   document.querySelector('h1').innerHTML = 'Yess, Im so happy my princess 💝';
   document.querySelector('#cat-gif').src = 'https://media.giphy.com/media/PNgCafbCVDPgpJj8xS/giphy.gif';
   document.querySelector('.buttons').style.display = 'none';
@@ -79,7 +88,9 @@ function handleYesClick() {
     msg.innerHTML = 'Agapi mo 💝';
     document.querySelector('.container').appendChild(msg);
   }
-    confetti({ particleCount: 150, spread: 100, origin: { x: 0.5, y: 0.3 } });
+
+  confetti({ particleCount: 150, spread: 100, origin: { x: 0.5, y: 0.3 } });
+}
 }
 
 function showTeaseMessage(msg) {
