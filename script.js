@@ -86,7 +86,6 @@ function handleYesClick() {
 
   confetti({ particleCount: 150, spread: 100, origin: { x: 0.5, y: 0.3 } });
 }
-}
 
 function showTeaseMessage(msg) {
     let toast = document.getElementById('tease-toast')
