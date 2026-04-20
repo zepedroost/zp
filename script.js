@@ -68,7 +68,7 @@ function handleYesClick() {
     }
 
     document.querySelector('h1').innerHTML = 'Yess, Im so happy my princess 💝'
-    document.querySelector('#cat-gif').src = 'https://media.giphy.com/media/PNgCafbCVDPgpJj8xS/giphy.gif'
+    document.querySelector('#cat-gif').src = 'https://media.tenor.com/vBCHNOMhWpAAAAAC/cat-pleading.gif'
     document.querySelector('.buttons').style.display = 'none'
 
     const tease = document.getElementById('tease-toast')
@@ -88,7 +88,7 @@ function handleYesClick() {
         waBtn.className = 'whatsapp-btn'
         waBtn.href = 'https://wa.me/351913799042?text=I+said+yes!+%F0%9F%92%9D+We%27re+having+a+great+date!'
         waBtn.target = '_blank'
-        waBtn.innerHTML = '💬 Let him know you said yes!'
+        waBtn.innerHTML = '💬 Let your prince know you said yes!'
         document.querySelector('.container').appendChild(waBtn)
     }
 }
