@@ -204,3 +204,17 @@ h1 {
     width: 260px;
     height: 260px;
 }
+
+.whatsapp-btn {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 12px 24px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+}
