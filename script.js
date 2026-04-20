@@ -1,13 +1,13 @@
 const gifStages = [
-    "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDB4emRxdTNoN2lpeGIwZXllOTE0cjNlOGxub2YwZ2g0c2xxdzR2NyZlcDI2MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OpdTzOY2e4jInw2Vkk/giphy.gif",
-    "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2R0amlhd226dXd0ZTg3MzB5ZGFjcDMyZXZwNmgya2S2ZmtldjByeZlcDI2MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r5cYNt7cl8I4lKSQVW/giphy.gif",
-    "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWlaTVqcmMyBHdzNjlldTh2NmExOWo4ZmxwYnM3JocXFq0WzbcZlcDI2MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3y8lT2ryo6eI6IDewc/giphy.gif",
-    "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdJN20HhkdjIxem1ia3owbm01cmUyanRsY2dhODF3eWFhemdvYmh3NSZlcDI2MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7y3CFUclWa1T1nSV74/giphy.gif",
-    "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWdveHFxNDVmanh1Y21xejZmc33a3o5aW9rMGMzMnVpYnFqZHp4NSZlcDI2MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4ziWRD2x9v1061tMXd/giphy.gif",
-    "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTg5cTF4Z2hoNnNhqcHM4dWdnZXc1M2tnenNwamM0MWNkMDAycHZxZlZlcDI2MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MTp7DTQ7xkXZia8EZ/giphy.gif",
-    "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHVnNjAxeHB2czY5NW5neXQ3OG8wNjhrd2h2eGd4bmMjeJN0dmo5dyZlcDI2MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yV1anhmc HNQc6bc2R4/giphy.gif",
-    "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHVnNjAxeHB2czY5NW5neXQ3OG8wNjhrd2h2eGd4bmMjeJN0dmo5dyZlcDI2MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yV1anhmc HNQc6bc2R4/giphy.gif"
-]
+    "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDB4emRxdTNoN2lpeGIwZXllOTE0cjN1OGxub2YwZ2g0c2xxdzR2NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OpdTzOY2e4jInw2Vkk/giphy.gif",    // 0 normal
+    "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2R6Nmlhd2Z6dXd0ZTg3MzB5ZGFjcDMyZXZwNngya252Zmt1djByeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rScYNt7cl8I4lKSQVW/giphy.gif",  // 1 confused
+    "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWUwaTVqcmNybHdzNjlidTh2NmExOWo4ZmxwYnY3M3JocXFqOWxnbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Jy8LT2ryo6rI6iDewc/giphy.gif",             // 2 pleading
+   "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjN2OHhkdjIxem1ia3owbm91cmUyanRsY2dhODF3eWFhemdvYmh3NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7y3CfUclWw1T1nSV74/giphy.gif",             // 3 sad
+    "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWdveHFxNDVmanh1Y21xejZmczJ3a3o5aW9rMGMzMnVpYnFqZHp4NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4zUmRD2x9vl06ltMXd/giphy.gif",       // 4 sadder
+    "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTg5cTF4Z2hoNnRqcHM4dWdnZXc1M2tnenNwamM0MWNkMDAycHZxZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MTp7DtQJxkXKziaBEZ/giphy.gif",             // 5 devastated
+    "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHVnNjAxeHB2czY5NW5neXQ3OG0wNjhrd2h2eGd4bmNjejN0dmo5dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yV1anhmcHNQc6bc2R4/giphy.gif",               // 6 very devastated
+   "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHVnNjAxeHB2czY5NW5neXQ3OG0wNjhrd2h2eGd4bmNjejN0dmo5dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yV1anhmcHNQc6bc2R4/giphy.gif"  // 7 crying runaway
+    ]
 
 const noMessages = [
     "No",
