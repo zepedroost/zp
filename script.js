@@ -133,8 +133,8 @@ function handleNoClick() {
         enableRunaway()
         runawayEnabled = true
     }
-}
-
+    }
+    
 function swapGif(src) {
     catGif.style.opacity = '0'
     setTimeout(() => {
