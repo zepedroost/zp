@@ -85,6 +85,14 @@ function handleYesClick() {
   }
 
   confetti({ particleCount: 150, spread: 100, origin: { x: 0.5, y: 0.3 } });
+    // Show WhatsApp notification button
+if (!document.querySelector('.whatsapp-btn')) {
+    const waBtn = document.createElement('a');
+    waBtn.className = 'whatsapp-btn';
+    waBtn.href = 'https://wa.me/351913799042?text=I+said+yes!+%F0%9F%92%9D+We%27re+having+a+great+date!';
+    waBtn.target = '_blank';
+    waBtn.innerHTML = '💬 Let him know you said yes!';
+    document.querySelector('.container').appendChild(waBtn);
 }
 
 function showTeaseMessage(msg) {
