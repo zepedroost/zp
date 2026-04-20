@@ -94,6 +94,7 @@ if (!document.querySelector('.whatsapp-btn')) {
     waBtn.innerHTML = '💬 Let him know you said yes!';
     document.querySelector('.container').appendChild(waBtn);
 }
+}
 
 function showTeaseMessage(msg) {
     let toast = document.getElementById('tease-toast')
