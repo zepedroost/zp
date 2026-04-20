@@ -88,7 +88,7 @@ function handleYesClick() {
         waBtn.className = 'whatsapp-btn'
         waBtn.href = 'https://wa.me/351913799042?text=I+said+yes!+%F0%9F%92%9D+We%27re+having+a+great+date!'
         waBtn.target = '_blank'
-        waBtn.innerHTML = '💬 Let him know you said yes!'
+        waBtn.innerHTML = '💬 Let your prince know you said yes!'
         document.querySelector('.container').appendChild(waBtn)
     }
 }
